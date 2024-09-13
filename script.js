@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function loadContent(url) {
-    const baseUrl = "/";
+    const baseUrl = "https://theodorebulleid.net/";
     const fullUrl = url.startsWith("/") ? url : `${baseUrl}${url}`;
     console.log("Attempting to load content from:", fullUrl);
     fetch(fullUrl)
