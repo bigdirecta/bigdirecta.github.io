@@ -164,7 +164,7 @@ a {
 
 .content-body img {
   max-width: 800px;
-  max-height: 100vh;
+  max-height: 85vh;
 
   width: auto;
   height: auto;
@@ -260,6 +260,7 @@ a {
 body.work {
   display: block;
 }
+
 
 
 
