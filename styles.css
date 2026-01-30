@@ -163,11 +163,9 @@ a {
 }
 
 .content-body img {
-  max-width: 100%;
-  max-height: calc(85vh);
-  width: auto;
+  width: 100%;
+  max-width: 800px; /* choose your visual width */
   height: auto;
-  object-fit: contain;
   padding: 20px;
 }
 
@@ -258,3 +256,4 @@ a {
 body.work {
   display: block;
 }
+
